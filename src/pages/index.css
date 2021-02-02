@@ -6,11 +6,11 @@
     background: #FFFFFF;
     color: #000000;
     min-width: 300px;
+    max-width: 1282px;
 }
 
 .header {
     display: flex;
-    max-width: 1440px;
     margin: 0 auto;
     background: #FED600;
     padding: 7px 120px;
@@ -90,54 +90,57 @@
 
 .search-section {
     display: flex;
-    max-width: 1440px;
+    /* max-width: 1440px; */
     padding: 0 120px;
     margin: 0 auto;
     min-height: 105px;
-    justify-content: center;
+    /* justify-content: center; */
+    justify-content: space-between;
 }
 
 .search-section__logo {
     margin: auto 0;
     margin-right: 16px;
+    width: 64px;
+    height: 73px
 }
 
 .search-section-caption {
-max-width: 133px;
-font-style: italic;
-font-weight: normal;
-font-size: 13px;
-line-height: 18px;
-display: flex;
-align-items: center;
-color: #000000;
-margin-right: 32px;
+    max-width: 133px;
+    font-style: italic;
+    font-weight: normal;
+    font-size: 13px;
+    line-height: 18px;
+    display: flex;
+    align-items: center;
+    color: #000000;
+    margin-right: 32px;
 }
 
 .search-section__conteiner-image {
-display: flex;
-width: 105px;
-height: 60px;
-background: #FFFFFF;
-box-shadow: 0px 4px 16px rgba(0, 0, 0, 0.16);
-border-radius: 8px;
-margin: auto 0;
-margin-right: 32px;
+    display: flex;
+    width: 105px;
+    height: 60px;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 16px rgba(0, 0, 0, 0.16);
+    border-radius: 8px;
+    margin: auto 0;
+    margin-right: 32px;
 }
 
 .search-section__image {
-    margin: auto; 
+    margin: auto;
 }
 
 .search-section__input-container {
-    width: 521px;
+    max-width: 521px;
     display: flex;
     margin: auto 0;
     margin-right: 36px;
 }
 
 .search-section__input {
-    width: 521px;
+    width: 442px;
     height: 44px;
     background: #FFFFFF;
     border-radius: 4px;
@@ -164,14 +167,14 @@ margin-right: 32px;
 }
 
 .search-section__img-exit {
-    height:18px;
+    height: 18px;
     margin: auto 0;
-    margin-right: 10px; 
+    margin-right: 10px;
 }
 
 .search-section__come-in {
-    margin: auto 0; 
-    margin-right: 32px; 
+    margin: auto 0;
+    margin-right: 32px;
 }
 
 .search-section__basket {
@@ -181,23 +184,22 @@ margin-right: 32px;
     height: 36px;
     border-radius: 4px;
     padding: 0 18px;
-    margin: auto 0; 
+    margin: auto 0;
 }
 
 .search-section__img-basket {
     width: 24px;
     height: 24px;
     margin: auto 0;
-    margin-right: 32px; 
+    margin-right: 32px;
 }
 
 .search-section__basket-caption {
     /* font-family: Open Sans; */
     font-style: normal;
-font-weight: 500;
-font-size: 13px;
-line-height: 18px;
-text-align: center;
-margin: auto 0;
-
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 18px;
+    text-align: center;
+    margin: auto 0;
 }
