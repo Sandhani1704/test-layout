@@ -1,18 +1,76 @@
 <!DOCTYPE html>
 <html lang="ru">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="pages/index.css">
     <title>test-layout</title>
 </head>
+
 <body>
     <div class="page">
         <header class="header">
-            
+            <div class="header__info">
+                <p class="header__city">Санкт-Петербург</p>
+                <img class="header__city-selector" src="./images/selector.svg" alt="селектор">
+                <p class="header__city-phone">+7 (812) 613-58-38</p>
+            </div>
+            <nav class='header__nav'>
+                <ul class='header__nav-list'>
+                    <li class='header__nav-list-item'>
+                        <a href="#" class='header__link'>
+                            Напишите нам
+                        </a>
+                    </li>
+                    <li class='header__nav-list-item'>
+                        <a href="#" class='header__link'>
+                            Свяжитесь с директором
+                        </a>
+                    </li>
+
+                </ul>
+                <ul class='header__social-list'>
+                    <li class='header__nav-list-social-item'>
+                        <a href="#" target='_blank' rel='noopener noreferrer' class='header__social-link'>
+                            <img class='header__icon-image' src="./images/icon_1.svg" alt='icon' />
+                        </a>
+                    </li>
+                    <li class='header__nav-list-social-item'>
+                        <a href="#" target='_blank' rel='noopener noreferrer' class='header__social-link'>
+                            <img class='header__icon-image' src="./images/skype.svg" alt='skype' />
+                        </a>
+                    </li>
+                    <li class='header__nav-list-social-item'>
+                        <a href="#" target='_blank' rel='noopener noreferrer' class='header__social-link'>
+                            <img class='header__icon-image' src="./images/phone.svg" alt='phone' />
+                        </a>
+                    </li>
+                </ul>
+
+            </nav>
         </header>
+        <section class="search-section">
+            <img class='search-section__logo' src="./images/logo.svg" alt='логотип' />
+            <p class="search-section-caption">Ваш эксперт на рынке 3D-техники</p>
+            <div class='search-section__conteiner-image'>
+                <img class='search-section__image' src="./images/yandex-img.svg" alt='яндекс маркет' />
+            </div>
+            <div class='search-section__input-container'>
+                <input class='search-section__input' placeholder='Введите запрос, например, Formlabs Form 2'
+                    name='search-text' />
+                <button type='submit' class='search-section__button-find'>Найти</button>
+            </div>
+            <img class='search-section__img-exit' src="./images/out.svg" alt='выйти' />
+            <p class='search-section__come-in'>Войти</p>
+            <div class='search-section__basket'>
+                <img class='search-section__img-basket' src="./images/basket.svg" alt='корзина' />
+                <p class="search-section__basket-caption">Корзина пуста</p>
+            </div>
+        </section>
 
     </div>
-    
+
 </body>
+
 </html>
