@@ -12,11 +12,11 @@
 <body>
     <div class="page">
         <header class="header">
-            <!-- <div class="header__conteiner"> -->
+
             <div class="header__info-list">
                 <div class="header__info">
                     <p class="header__city">Санкт-Петербург</p>
-                    <img class="header__city-selector" src="./images/selector.svg" alt="селектор">
+                    <a href="#"><img class="header__img-city-selector" src="./images/selector.svg" alt="селектор"></a>
                     <p class="header__city-phone">+7 (812) 613-58-38</p>
                     <p class="header__schedule">Пн–пт 10:00–19:00, сб-вс 10:00–17:00</p>
                 </div>
@@ -56,8 +56,11 @@
             </div>
 
             <div class="search-section">
+                
                 <img class='search-section__logo' src="./images/logo.svg" alt='логотип' />
-                <p class="search-section-caption">Ваш эксперт на рынке 3D-техники</p>
+                <p class="search-section__caption">
+                    Ваш эксперт <br>на рынке<span class="search-section__caption-color"> 3D</span>-техники</p>
+                    
                 <div class='search-section__conteiner-image'>
                     <img class='search-section__image' src="./images/yandex-img.svg" alt='яндекс маркет' />
                 </div>
@@ -66,13 +69,16 @@
                         name='search-text' />
                     <button type='submit' class='search-section__button-find'>Найти</button>
                 </div>
+           
+            
                 <img class='search-section__img-exit' src="./images/Frame.svg" alt='выйти' />
                 <p class='search-section__come-in'>Войти</p>
-                <div class='search-section__basket'>
+                <button class='search-section__basket'>
                     <img class='search-section__img-basket' src="./images/basket.svg" alt='корзина' />
-                    <p class="search-section__basket-caption">Корзина пуста</p>
-                </div>
+                    Корзина пуста
+                </button>
             </div>
+        
 
             <nav class="navigation">
                 <ul class="nav-list">
@@ -108,160 +114,150 @@
 
             <nav class="navigation-products">
                 <ul class="navigation-products__list">
-                    <ul class="navigation-products__item">
-                        <!-- <ul class="navigation-products__conteiner-selector"> -->
-                        <li class="navigation-products__link">3D-принтеры</li>
-                        <li class="navigation-products__selector"></li>
-                        <!-- <img class="header__city-selector" src="./images/selector.svg" alt="селектор"> -->
-                        <!-- </ul> -->
-                    </ul>
-                    <ul class="navigation-products__item">
-                        <!-- <ul class="navigation-products__conteiner-selector"> -->
-                        <li class="navigation-products__link">3D-сканеры</li>
-                        <li class="navigation-products__selector"></li>
-                        <!-- <img class="header__city-selector" src="./images/selector.svg" alt="селектор"> -->
-                        <!-- </ul> -->
-                    </ul>
-                    <ul class="navigation-products__item">
-                        <!-- <ul class="navigation-products__conteiner-selector"> -->
-                        <li class="navigation-products__link">Станки</li>
-                        <li class="navigation-products__selector"></li>
-                        <!-- <img class="header__city-selector" src="./images/selector.svg" alt="селектор"> -->
-                        <!-- </ul> -->
-                    </ul>
-                    <ul class="navigation-products__item">
-                        <!-- <ul class="navigation-products__conteiner-selector"> -->
-                        <li class="navigation-products__link">Роботы</li>
-                        <li class="navigation-products__selector"></li>
-                        <!-- <img class="header__city-selector" src="./images/selector.svg" alt="селектор"> -->
-                        <!-- </ul> -->
-                    </ul>
-                    <ul class="navigation-products__item">
-                        <!-- <ul class="navigation-products__conteiner-selector"> -->
-                        <li class="navigation-products__link">Образование</li>
-                        <li class="navigation-products__selector"></li>
-                        <!-- <img class="header__city-selector" src="./images/selector.svg" alt="селектор"> -->
-                        <!-- </ul> -->
-                    </ul>
-                    <ul class="navigation-products__item">
-                        <!-- <ul class="navigation-products__conteiner-selector"> -->
-                        <li class="navigation-products__link">Стоматологам</li>
-                        <li class="navigation-products__selector"></li>
-                        <!-- <img class="header__city-selector" src="./images/selector.svg" alt="селектор"> -->
-                        <!-- </ul> -->
-                    </ul>
-                    <ul class="navigation-products__item">
-                        <!-- <ul class="navigation-products__conteiner-selector"> -->
-                        <li class="navigation-products__link">Гаджеты</li>
-                        <li class="navigation-products__selector"></li>
-                        <!-- <img class="header__city-selector" src="./images/selector.svg" alt="селектор"> -->
-                        <!-- </ul> -->
-                    </ul>
-                    <ul class="navigation-products__item">
-                        <!-- <ul class="navigation-products__conteiner-selector"> -->
-                        <li class="navigation-products__link">Материалы</li>
-                        <li class="navigation-products__selector"></li>
-                        <!-- <img class="header__city-selector" src="./images/selector.svg" alt="селектор"> -->
-                        <!-- </ul> -->
-                    </ul>
-                    <ul class="navigation-products__item">
-                        <!-- <ul class="navigation-products__conteiner-selector"> -->
-                        <li class="navigation-products__link">ПО</li>
-                        <li class="navigation-products__selector"></li>
-                        <!-- <img class="header__city-selector" src="./images/selector.svg" alt="селектор"> -->
-                        <!-- </ul> -->
-                    </ul>
-                    <ul class="navigation-products__item">
-                        <!-- <ul class="navigation-products__conteiner-selector"> -->
-                        <li class="navigation-products__link">Решения</li>
-                        <li class="navigation-products__selector"></li>
-                        <!-- <img class="header__city-selector" src="./images/selector.svg" alt="селектор"> -->
-                        <!-- </ul> -->
-                    </ul>
-                    <ul class="navigation-products__item">
-                        <!-- <ul class="navigation-products__conteiner-selector"> -->
-                        <li class="navigation-products__link">Учебный центр</li>
-                        <li class="navigation-products__selector"></li>
-                        <!-- <img class="header__city-selector" src="./images/selector.svg" alt="селектор"> -->
-                        <!-- </ul> -->
-                    </ul>
-                    <ul class="navigation-products__item">
-                        <!-- <ul class="navigation-products__conteiner-selector"> -->
-                        <li class="navigation-products__link">Услуги</li>
-                        <li class="navigation-products__selector"></li>
-                        <!-- <img class="header__city-selector" src="./images/selector.svg" alt="селектор"> -->
-                        <!-- </ul> -->
-                    </ul>
+                    <li class="navigation-products__link">3D-принтеры <a class="navigation-products__selector" href="#">
+                            <img class="navigation-products__img" src="./images/Vector.svg" alt="селектор">
+                        </a>
+                    </li>
+
+                    <li class="navigation-products__link">3D-сканеры <a class="navigation-products__selector" href="#">
+                            <img class="navigation-products__img" src="./images/Vector.svg" alt="селектор">
+                        </a>
+                    </li>
+
+                    <li class="navigation-products__link">Станки <a class="navigation-products__selector" href="#">
+                            <img class="navigation-products__img" src="./images/Vector.svg" alt="селектор">
+                        </a>
+                    </li>
+
+                    <li class="navigation-products__link">Роботы <a class="navigation-products__selector" href="#">
+                            <img class="navigation-products__img" src="./images/Vector.svg" alt="селектор">
+                        </a>
+                    </li>
+
+                    <li class="navigation-products__link">Образование <a class="navigation-products__selector" href="#">
+                            <img class="navigation-products__img" src="./images/Vector.svg" alt="селектор">
+                        </a></li>
+
+                    <li class="navigation-products__link">Стоматологам <a class="navigation-products__selector"
+                            href="#">
+                            <img class="navigation-products__img" src="./images/Vector.svg" alt="селектор">
+                        </a>
+                    </li>
+
+                    <li class="navigation-products__link">Гаджеты <a class="navigation-products__selector" href="#">
+                            <img class="navigation-products__img" src="./images/Vector.svg" alt="селектор">
+                        </a>
+                    </li>
+
+                    <li class="navigation-products__link">Материалы <a class="navigation-products__selector" href="#">
+                            <img class="navigation-products__img" src="./images/Vector.svg" alt="селектор">
+                        </a>
+                    </li>
+
+                    <li class="navigation-products__link">ПО <a class="navigation-products__selector" href="#">
+                            <img class="navigation-products__img" src="./images/Vector.svg" alt="селектор">
+                        </a>
+                    </li>
+
+                    <li class="navigation-products__link">Решения
+                        <a class="navigation-products__selector" href="#">
+                            <img class="navigation-products__img" src="./images/Vector.svg" alt="селектор">
+                        </a>
+                    </li>
+
+                    <li class="navigation-products__link">Учебный центр <a class="navigation-products__selector"
+                            href="#">
+                            <img class="navigation-products__img" src="./images/Vector.svg" alt="селектор">
+                        </a></li>
+
+                    <li class="navigation-products__link">Услуги <a class="navigation-products__selector" href="#">
+                            <img class="navigation-products__img" src="./images/Vector.svg" alt="селектор">
+                        </a>
+                    </li>
+
                 </ul>
             </nav>
 
-            <!-- </div> -->
         </header>
+        <main class="main">
+            <section class="about">
+                <img class="about__image" src="./images/image-about.svg" alt="фото коллектива">
+                <div class="about-conteiner">
+                    <div class="about__content">
+                        <h2 class="about__title">Твоя работа <br>в крупнейшем интеграторе цифрового производства</h2>
+                        <button class='about__button'>Отправить резюме</button>
+                        <p class='about__button-caption'>Нажимая кнопку, вы соглашаетесь на обработку персональных
+                            данных.
+                        </p>
 
-        <section class="about">
-            <img class="about__image" src="./images/image-about.svg" alt="фото коллектива">
-            <div class="about-conteiner">
-                <div class="about__content">
-                    <p class="about__title">Твоя работа в крупнейшем интеграторе цифрового производства</p>
-                    <button class='about__button'>Отправить резюме</button>
-                    <p class='about__button-caption'>Нажимая кнопку, вы соглашаетесь на обработку персональных данных.
-                    </p>
+                    </div>
 
+                    <div class="about__text">
+                        <p class="about__paragraph">Top 3D Shop – лидер по продажам 3D-оборудования в России и странах
+                            СНГ.
+                            В 2018 мы стали лучшим интегратором 3D оборудования по аддитивным технологиям и цифровому
+                            производству
+                            по версии 3D Print Awards.
+                        </p>
+                        <p class="about__paragraph">
+                            За 6 лет работы более 10 000 клиентов по всей России и СНГ выбрали Top 3D Shop. В 2018 наш
+                            оборот составил 600 млн. рублей, в компании работает более 100 сотрудников.
+                        </p>
+                        <p class="about__paragraph">
+                            Новая цель: 1 млрд торгового оборота в этом году и выход на международные рынки. Если вы —
+                            целеустремленный специалист, готовый учиться новым навыкам и учить других, мыслите не просто
+                            как
+                            исполнитель, а как владелец своего направления, то нам по пути!
+                        </p>
+                    </div>
                 </div>
-
-                <div class="about__text">
-                    <p class="about__paragraph">Top 3D Shop – лидер по продажам 3D-оборудования в России и странах СНГ.
-                        В
-                        2018
-                        мы стали лучшим интегратором 3D оборудования по аддитивным технологиям и цифровому производству
-                        по
-                        версии 3D Print Awards.
-                    </p>
-                    <p class="about__paragraph">
-                        За 6 лет работы более 10 000 клиентов по всей России и СНГ выбрали Top 3D Shop. В 2018 наш
-                        оборот
-                        составил 600 млн. рублей, в компании работает более 100 сотрудников.
-                    </p>
-                    <p class="about__paragraph">
-                        Новая цель: 1 млрд торгового оборота в этом году и выход на международные рынки. Если вы —
-                        целеустремленный специалист, готовый учиться новым навыкам и учить других, мыслите не просто как
-                        исполнитель, а как владелец своего направления, то нам по пути!
-                    </p>
+                <div class="about__links">
+                    <p class="about__links-text">Лучше один раз увидеть:</p>
+                    <div class="about__border"></div>
                 </div>
-            </div>
-            <div class="about__links">
-                <p class="about__links-text">Лучше один раз увидеть:</p>
-                <div class="about__border"></div>
-            </div>
-            <nav class="navigation-links">
-                <ul class="navigation-links__list">
-                    <ul class="navigation-links__item">
-                        <li class="navigation-links__link navigation-link__main">Как устроена наша компания изнутри</li>
-                        <li class="navigation-links__selector navigation-links__selector-main"></li>
-                    </ul>
-                    <ul class="navigation-links__item">
-                        <li class="navigation-links__link">Как создавалась компания - необычная история</li>
-                        <li class="navigation-links__selector"></li>
-                    </ul>
-                    <ul class="navigation-links__item">
-                        <li class="navigation-links__link">Читай о нас на 3D Today</li>
-                        <li class="navigation-links__selector"></li>
-                    </ul>
-                </ul>
-            </nav>
-        </section>
+                <nav class="navigation-links">
+                    <ul class="navigation-links__list">
 
-        <section class="video">
-            <div class="video__about">
-                <h2 class="video__title">Видео о нас</h2>
-                <div class="video__icon-left"></div>
-                <div class="video__icon-right"></div>
-            </div>
-            <div class="video__image-conteiner">
-                <img class="video__image" src="./images/video_1.svg" alt="видео коллектива">
-                <img class="video__image" src="./images/video_2.svg" alt="видео коллектива">
-            </div>
-        </section>
+                        <li class="navigation-links__link navigation-link__main">
+                            <a class="navigation-links__selector navigation-links__selector-main">
+                                Как устроена наша компания изнутри
+                                <img class="navigation-links__selector-img" src="./images/Vector_4.svg" alt="селектор">
+                            </a>
+                        </li>
+
+                        <li class="navigation-links__link">
+                            <a class="navigation-links__selector">
+                                Как создавалась компания - необычная история
+                                <img class="navigation-links__selector-img" src="./images/Vector_3.svg" alt="селектор">
+                            </a>
+                        </li>
+
+
+                        <li class="navigation-links__link">
+                            <a class="navigation-links__selector">
+                                Читай о нас на 3D Today
+                                <img class="navigation-links__selector-img" src="./images/Vector_3.svg" alt="селектор">
+                            </a>
+                        </li>
+
+
+                    </ul>
+                </nav>
+            </section>
+
+            <section class="video">
+                <div class="video__about">
+                    <h2 class="video__title">Видео о нас</h2>
+                    <button class="video__icon-left"></button>
+                    <button class="video__icon-right"></button>
+                </div>
+                <div class="video__image-conteiner">
+                    <img class="video__image" src="./images/video_1.svg" alt="фото коллектива">
+                    <img class="video__image" src="./images/video_2.svg" alt="фото коллектива">
+                </div>
+            </section>
+
+        </main>
 
     </div>
 

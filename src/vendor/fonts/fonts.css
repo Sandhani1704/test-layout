@@ -1,41 +1,41 @@
- @font-face {
-  font-family: 'Inter';
-  src: url('Inter-Regular.woff');
-  font-weight: normal;
-}
-
-@font-face {
-  font-family: 'Inter';
-  src: url('Inter-Medium.woff');
-  font-weight: 500;
-}
-
-@font-face {
-  font-family: 'Inter';
-  src: url('Inter-Black.woff');
-  font-weight: 900;
-}
-
 @font-face {
   font-family: 'Open Sans';
-  src: url('OpenSans-SemiBold.ttf');
+  src: url('OpenSans-SemiBold.woff');
   font-weight: 600;
 }
 
 @font-face {
   font-family: 'Open Sans';
-  src: url('OpenSans-Italic.ttf');
+  src: url('OpenSans-Italic.woff');
   font-weight: normal;
 }
 
 @font-face {
   font-family: 'Open Sans';
-  src: url('OpenSans-Regular.ttf');
+  src: url('OpenSans-Regular.woff');
   font-weight: 400;
 }
 
 @font-face {
   font-family: 'Open Sans';
-  src: url('OpenSans-Bold.ttf');
+  src: url('OpenSans-Bold.woff');
   font-weight: 700;
+}
+
+@font-face {
+  font-family: 'SFProDisplay';
+  src: url('SFProDisplay-Regular.woff');
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: 'SFUITextRegular';
+  src: url('SFUIText-Regular.woff');
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: 'SFUITextMedium';
+  src: url('SFUIText-Medium.woff');
+  font-weight: 500;
 }
